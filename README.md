@@ -44,4 +44,4 @@ The main objective of this project is to explore the dynamics of multi-vendor st
 
 1. **Clone the Repository**: 
    ```bash
-   git clone https://github.com/your-username/multi-vendor-student-marketplace.git
+   git clone https://github.com/Oluyalireuben/multi-vendor-student-marketplace.git
