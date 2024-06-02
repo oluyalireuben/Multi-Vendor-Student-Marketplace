@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/images"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/images"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Multivendor"
+        tools:targetApi="31">
+        <activity
+            android:name=".common.ViewMessages"
+            android:exported="false" />
+        <activity
+            android:name=".Chats"
+            android:exported="false" />
+        <activity
+            android:name=".vendor.ProductEdit"
+            android:exported="false" />
+        <activity
+            android:name=".vendor.ProductView"
+            android:exported="false" />
+        <activity
+            android:name=".vendor.VendorDashboard"
+            android:exported="false" />
+        <activity
+            android:name=".student.MakeOrder"
+            android:exported="false" />
+        <activity
+            android:name=".student.ProductDetails"
+            android:exported="false" />
+        <activity
+            android:name=".student.StudentDashboard"
+            android:exported="false" />
+        <activity
+            android:name=".common.ForgotPassword"
+            android:exported="false" />
+        <activity
+            android:name=".common.Login"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".common.MainActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

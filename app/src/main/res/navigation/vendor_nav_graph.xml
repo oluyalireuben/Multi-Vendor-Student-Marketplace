@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/vendor_nav_graph"
+    app:startDestination="@id/settings1">
+
+    <fragment
+        android:id="@+id/home1"
+        android:name="com.example.multi_vendor.vendor.VendorHomeFragment"
+        android:label="fragment_vendor_home"
+        tools:layout="@layout/fragment_vendor_home" />
+    <fragment
+        android:id="@+id/orders1"
+        android:name="com.example.multi_vendor.vendor.VendorOrdersFragment"
+        android:label="fragment_vendor_orders"
+        tools:layout="@layout/fragment_vendor_orders" />
+    <fragment
+        android:id="@+id/settings1"
+        android:name="com.example.multi_vendor.vendor.VendorSettingsFragment"
+        android:label="fragment_vendor_settings"
+        tools:layout="@layout/fragment_vendor_settings" >
+    </fragment>
+    <fragment
+        android:id="@+id/chats1"
+        android:name="com.example.multi_vendor.common.ChatsFragment"
+        android:label="fragment_chats"
+        tools:layout="@layout/fragment_chats" />
+</navigation>

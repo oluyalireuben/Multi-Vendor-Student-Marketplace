@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".student.OrdersFragment">
+
+    <TextView
+        android:id="@+id/empty"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You do not have any orders"
+        android:textColor="@color/black"
+        android:textSize="18sp"/>
+
+   <androidx.constraintlayout.widget.ConstraintLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+       <androidx.cardview.widget.CardView
+           android:id="@+id/toolBar"
+           android:layout_width="match_parent"
+           android:layout_height="50dp"
+           android:backgroundTint="@color/primary"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toTopOf="parent">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:text="My orders"
+               android:textColor="@color/black"
+               android:textSize="18sp"
+               android:textStyle="bold" />
+       </androidx.cardview.widget.CardView>
+
+       <androidx.recyclerview.widget.RecyclerView
+           android:id="@+id/orders1"
+           android:layout_width="match_parent"
+           android:layout_height="0dp"
+           android:layout_marginHorizontal="4dp"
+           android:visibility="gone"
+           app:layout_constraintBottom_toBottomOf="parent"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
+           android:layout_marginBottom="85dp"
+           app:layout_constraintTop_toBottomOf="@+id/toolBar"
+           tools:listitem="@layout/order_item1" />
+
+       <ProgressBar
+           android:id="@+id/loading"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           app:layout_constraintBottom_toBottomOf="parent"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toTopOf="parent" />
+   </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
