@@ -18,7 +18,6 @@ The main objective of this project is to explore the dynamics of multi-vendor st
 - **User Registration and Authentication**: Secure sign-up and login processes for all users.
 - **Product Listings**: Easy and organized listing of goods and services by various vendors.
 - **Search and Filter**: Advanced search and filtering options to help users find specific products or services quickly.
-- **Secure Payment Gateway**: Integration of secure payment methods to ensure safe and reliable transactions.
 - **Interactive Community Tools**: Discussion forums, ratings, reviews, and messaging systems to facilitate communication and engagement among users.
 - **Vendor Management**: Tools for vendors to manage their listings, track sales, and interact with customers.
 - **Notifications and Alerts**: Real-time notifications and alerts to keep users informed about their transactions and community activities.
@@ -32,7 +31,6 @@ The main objective of this project is to explore the dynamics of multi-vendor st
   - **Cloud Functions**
   - **Cloud Storage**
   - **Firebase Hosting**
-- **Payment Gateway**: Integration with secure payment providers (e.g., Stripe, PayPal)
 
 ## Getting Started
 
