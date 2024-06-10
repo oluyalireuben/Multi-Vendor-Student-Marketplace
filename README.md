@@ -10,8 +10,8 @@ The main objective of this project is to explore the dynamics of multi-vendor st
 
 1. **Develop a User-Friendly Platform**: Create a robust and intuitive online marketplace for students to buy, sell, and exchange various goods and services.
 2. **Establish a Diverse Vendor Network**: Populate the marketplace with a wide range of products and services by incorporating students, local businesses, and third-party sellers, ensuring ample choices for students.
-3. **Implement Secure Payment Systems**: Ensure seamless and safe monetary transactions with secure payment gateways and transaction protocols, safeguarding data privacy and financial security while preventing fraud.
-4. **Foster Community Engagement**: Enhance community interaction through features like discussion forums, ratings, reviews, and messaging systems to build a vibrant and supportive student community around the marketplace.
+3. **Foster Community Engagement**: Enhance community interaction through features like discussion forums, ratings, reviews, and messaging systems to build a vibrant and supportive student community around the marketplace.
+ 
 
 ## Features
 
