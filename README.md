@@ -32,8 +32,8 @@ The main objective of this project is to explore the dynamics of multi-vendor st
   - **Authentication**
   - **Realtime Database/Firestore**
   - **Cloud Functions**
-  - **Cloud Storage**
-  - **Firebase Hosting
+  - **Cloud 
+  - **Firebase Hosting**
 
 ## Getting Started
 
