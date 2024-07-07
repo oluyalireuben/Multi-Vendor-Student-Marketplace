@@ -33,7 +33,7 @@ The main objective of this project is to explore the dynamics of multi-vendor st
   - **Realtime Database/Firestore**
   - **Cloud Functions**
   - **Cloud Storage**
-  - **Firebase Hosting**
+  - **Firebase Hosting
 
 ## Getting Started
 
