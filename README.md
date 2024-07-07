@@ -31,7 +31,6 @@ The main objective of this project is to explore the dynamics of multi-vendor st
 - **Backend**: Firebase
   - **Authentication**
   - **Realtime Database/Firestore**
-  - **Cloud Functions**
   - **Firebase Hosting**
 
 ## Getting Started
