@@ -22,7 +22,7 @@ The main objective of this project is to explore the dynamics of multi-vendor st
 - **Vendor Management**: Tools for vendors to manage their listings, track sales, and interact with customers.
 - **Notifications and Alerts**: Real-time notifications and alerts to keep users informed about their transactions and community activities.
 
-  ## Download App
+  ## Download App Here
 [Click here to download the app](https://drive.google.com/file/d/13JG3WbPIneiHvUwxW1q9yEBoOBRJT2Qv/view?usp=sharing)
 
 ## Technology Stack
